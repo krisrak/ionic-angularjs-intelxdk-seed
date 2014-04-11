@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<widget 
+    xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:intelxdk="http://xdk.intel.com/ns/v1" 
+    id="com.yourcompany.app" 
+    version="1.0" 
+    versionCode="100" >
+
+    <name>app name</name>
+    <description>Some description for app</description> 
+    <author>Your Name</author>
+
+    <content src="index.html" /> 
+    <access origin="*" />
+    
+    <!-- iOS specific configuration -->
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="ios-target" value="7" />
+    <preference name="ios-configuration" value="adhoc" />
+    <intelxdk:provisioning intelxdk:src="some_profile.mobileprovision" intelxdk:type="adhoc" />    
+    
+    <!-- iOS icons iPhone -->
+    <icon platform="ios" src="assets/icon-60.png" height="60" width="60" />
+    <icon platform="ios" src="assets/icon-120.png" height="120" width="120" />
+    <icon platform="ios" src="assets/icon-57.png" height="57" width="57" />
+    <icon platform="ios" src="assets/icon-114.png" height="114" width="114" />
+    <!-- iOS icons iPad -->
+    <icon platform="ios" src="assets/icon-76.png" height="76" width="76" />
+    <icon platform="ios" src="assets/icon-152.png" height="152" width="152" />
+    <icon platform="ios" src="assets/icon-72.png" height="72" width="72" />
+    <icon platform="ios" src="assets/icon-144.png" height="144" width="144" />
+    
+    <!-- iOS splash screens iPhone -->
+    <splash platform="ios" src="assets/splash-320x480.png" width="320" height="480" />
+    <splash platform="ios" src="assets/splash-640x960.png" width="640" height="960" />
+    <splash platform="ios" src="assets/splash-640x1136.png" width="640" height="1136" />
+    <!-- iOS splash screens iPad -->
+    <splash platform="ios" src="assets/splash-768x1004.png" width="768" height="1004" />
+    <splash platform="ios" src="assets/splash-1536x2008.png" width="1536" height="2008" />
+    <splash platform="ios" src="assets/splash-1024x748.png" width="1024" height="748" />
+    <splash platform="ios" src="assets/splash-2048x1496.png" width="2048" height="1496" />    
+    
+    <!-- Standard Cordova Plugins -->
+    <intelxdk:plugin intelxdk:name="Splash Screen" intelxdk:value="org.apache.cordova.splashscreen" />
+    
+</widget>
