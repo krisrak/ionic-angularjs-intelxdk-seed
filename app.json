@@ -10,6 +10,7 @@
 	"highlights": ["Ionic Framework"],
 	"appname": "demo.sampleionicangularstarter",
 	"relname": "4.0.0",
-	"apppreview": "true"
+	"apppreview": "true",
+	"relationship":"blank"
 
 }
