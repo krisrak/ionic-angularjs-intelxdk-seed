@@ -11,6 +11,7 @@
 	"appname": "demo.sampleionicangularstarter",
 	"relname": "4.0.0",
 	"apppreview": "true",
-	"relationship":"blank"
+	"relationship":"blank",
+	"projectTypeName": "com.intel.xdk.projecttype.webapp"
 
 }
