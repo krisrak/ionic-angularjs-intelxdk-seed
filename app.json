@@ -5,11 +5,13 @@
 	"tooltip": "A Starter project for building Cordova app using Ionic Framework + AngularJS.",
 	"description": "A Starter project for building Cordova app using Ionic Framework + AngularJS.",
 	"articleUrl": "",
-	"keywords": ["Ionic Framework"],
+	"keywords": ["Blank Project", "Ionic Framework"],
 	"visible": "true",
 	"highlights": ["Ionic Framework"],
 	"appname": "demo.sampleionicangularstarter",
 	"relname": "4.0.0",
-	"apppreview": "true"
+	"apppreview": "true",
+	"relationship":"blank",
+	"projectTypeName": "com.intel.xdk.projecttype.webapp"
 
 }
