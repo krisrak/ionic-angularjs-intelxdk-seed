@@ -12,6 +12,6 @@
 	"relname": "4.0.0",
 	"apppreview": "true",
 	"relationship":"blank",
-	"projectTypeName": "com.intel.xdk.projecttype.webapp"
+	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
 
 }
