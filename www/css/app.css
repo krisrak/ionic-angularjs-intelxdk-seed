@@ -1,0 +1,47 @@
+/*
+ * Please see the included README.md file for license terms and conditions.
+ */
+/* Disable certain interactions on touch devices */
+/* SOURCE: https://github.com/ftlabs/fastclick/blob/master/examples/input.html */
+/* LICENSE: https://github.com/ftlabs/fastclick/blob/master/LICENSE */
+body {
+	-webkit-touch-callout:none;
+	-webkit-text-size-adjust:none;
+	-ms-text-size-adjust:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	-webkit-highlight:none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color:transparent; /* For some Androids */
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+html {
+	-ms-touch-action:pan-x;
+}
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+body {
+	-ms-touch-action:pan-y;
+	-ms-content-zooming:none;
+}
+/* allow copy-paste */
+input, textarea {
+	-webkit-user-select:text;
+	-moz-user-select:text;
+	-ms-user-select:text;
+	user-select:text;
+}
+body {
+	/* margin: 0.5rem ; */
+	background:white;
+	color:black;
+}
+.align-center {
+	text-align:center;
+}

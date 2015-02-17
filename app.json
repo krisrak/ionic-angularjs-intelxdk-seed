@@ -1,17 +1,23 @@
 {
-
-	"reponame": "sample-ionic-angular-starter",
-	"title": "Ionic Framework Starter",
-	"tooltip": "A Starter project for building Cordova app using Ionic Framework + AngularJS.",
-	"description": "A Starter project for building Cordova app using Ionic Framework + AngularJS.",
-	"articleUrl": "",
-	"keywords": ["Blank Project", "Ionic Framework"],
+	"reponame": "template-blank-game-portrait",
+	"sourceURL": "",
+	"title": "Blank Portrait Game Template",
+	"abbr": "",
+	"tooltip": "A blank template for creating games",
+	"type": "",
+	"description": "Use this template to start with a blank portrait Game",
+	"keywords": ["Blank Project", "Game"],
 	"visible": "true",
-	"highlights": ["Ionic Framework"],
-	"appname": "demo.sampleionicangularstarter",
-	"relname": "4.0.0",
-	"apppreview": "true",
+	"highlights": ["Game"],
+	"articleUrl": "",
+	"iconUrl": "",
+	"screenshotUrl": "",
+	"zipUrl": "",
+	"appPreview": "false",
+	"appname": "",
+	"relname": "",
+	"mobile": "false",
 	"relationship":"blank",
-	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
-
+	"gameEngine": { "name": "canvas" },
+	"projectTypeName": "com.intel.xdk.projecttype.webapp"
 }

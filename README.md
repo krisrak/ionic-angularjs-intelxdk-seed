@@ -1,17 +1,20 @@
-Ionic Framework Starter
-=============================
+# Blank Game Template
 
-Starter project for building Cordova app using [__Intel XDK__](http://xdk.intel.com) using [_Ionic Framework + AngularJS_](http://ionicframework.com/).
+See [LICENSE.md]() for license terms and conditions.
 
-Getting started
--
-- Download this project
-- __Download__ free [Intel XDK](http://xdk.intel.com)
-- In Intel XDK -> Start New project -> __Import Project__ and point to this project folder
-- Checkout the project in Editor, test on Emulator and device.
-- Use Build tab to build apps for iOS, Android...
+Use this template as a starting point for creating an Intel XDK game app.
 
-Documentation
--
-- [Intel XDK Overview](http://software.intel.com/en-us/html5/xdkdocs)
+This Intel XDK project just have required files including index.html, asset folder, and basic CSS and Javascript file.
 
+Intel(R) XDK
+-------------------------------------------
+This template is part of the Intel(R) XDK. Please sign up or download the Intel XDK at http://software.intel.com/en-us/html5.
+
+Application Files:
+-----------------
+* LICENSE.md
+* README.md
+* index.html
+* asset/logo.png
+* css/app.css
+* js/app.js
