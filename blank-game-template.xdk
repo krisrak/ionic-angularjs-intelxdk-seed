@@ -4,7 +4,7 @@
     "creationData": {
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2015-ww07/template-blank/sample.zip",
-      "projectGuid": "00000000-0000-0000-0000-000000000000",
+         "projectGuid": "00000000-0000-0000-0000-000000000000",
       "lastModifiedDate": 1422522033610,
       "creationDate": 1422514108698
     },
@@ -18,7 +18,7 @@
     "cordovaPlugins": [
       {
         "id": "org.apache.cordova.splashscreen",
-        "version": "",
+         "version": "?",
         "selectedState": "Included",
         "data": {},
         "paramvals": {}
@@ -27,15 +27,15 @@
     "buildConfigurations": {
       "Android": {
         "platform_": "android",
-        "runtime_": "W3C on Cordova",
+         "runtime_": "W3C on Cordova",
         "name_": "Android",
         "preferences_": {
-          "android-minSdkVersion": "10",
+         "android-minSdkVersion": "10",
           "android-targetSdkVersion": "19",
           "android-installLocation": "auto",
           "Orientation": "portrait"
         },
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "blank-game-webapp",
         "appID_": "xdk.intel.blank.game.template",
         "appAccess_": [
@@ -48,24 +48,24 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
+         "cordovaCLIVersion_": "?",
+         "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": "Use this template to start creating mobile game web apps.",
-        "appAuthor_": "",
+         "appAuthor_": "Intel XDK",
         "appVersionCode_": "1"
       },
       "Android-Crosswalk": {
         "platform_": "android",
-        "runtime_": "W3C on Crosswalk",
+         "runtime_": "W3C on Crosswalk",
         "name_": "Android-Crosswalk",
         "preferences_": {
-          "android-minSdkVersion": "14",
+         "android-minSdkVersion": "14",
           "android-targetSdkVersion": "19",
           "android-installLocation": "auto",
           "Orientation": "portrait"
         },
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "blank-game-webapp",
         "appID_": "xdk.intel.blank.game.template",
         "appAccess_": [
@@ -78,23 +78,23 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
+         "cordovaCLIVersion_": "?",
+         "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": "Use this template to start creating mobile game web apps.",
-        "appAuthor_": "",
+         "appAuthor_": "Intel XDK",
         "appVersionCode_": "1"
       },
       "iOS": {
         "platform_": "ios",
-        "runtime_": "W3C on Cordova",
+         "runtime_": "W3C on Cordova",
         "name_": "iOS",
         "preferences_": {
-          "ios-target": "6",
+         "ios-target": "6",
           "ios-configuration": "adhoc",
           "Orientation": "portrait"
         },
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "blank-game-webapp",
         "appID_": "xdk.intel.blank.game.template",
         "appAccess_": [
@@ -107,21 +107,22 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
+         "cordovaCLIVersion_": "?",
+         "crosswalkVersion_": "?",
+         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1",
         "appDescription_": "Use this template to start creating mobile game web apps."
       },
       "Windows8": {
         "platform_": "windows8",
-        "runtime_": "W3C on Cordova",
+         "runtime_": "W3C on Cordova",
         "name_": "Windows8",
         "preferences_": {
           "windows-publisher-display-name": "",
           "windows-publisher-id": "",
           "Orientation": "portrait"
         },
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "blank-game-webapp",
         "appID_": "xdk.intel.blank.game.template",
         "appAccess_": [
@@ -134,17 +135,18 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
+         "cordovaCLIVersion_": "?",
+         "crosswalkVersion_": "?",
+         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.0.1",
         "appDescription_": "Use this template to start creating mobile game web apps."
       },
       "WebApp": {
         "platform_": "webapp",
-        "runtime_": "W3C",
+         "runtime_": "W3C",
         "name_": "WebApp",
         "preferences_": {},
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "blank-game-webapp",
         "appID_": "xdk.intel.blank.game.template",
         "appAccess_": [
@@ -157,14 +159,15 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
+        "appAuthor_": "Intel XDK",
         "appDescription_": "Use this template to start creating mobile game web apps."
       },
       "Firefox": {
         "platform_": "firefoxos",
-        "runtime_": "W3C on Firefox OS",
+         "runtime_": "W3C on Firefox OS",
         "name_": "Firefox",
         "preferences_": {},
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "blank-game-webapp",
         "appID_": "xdk.intel.blank.game.template",
         "appAccess_": [
@@ -176,15 +179,16 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1",
         "appDescription_": "Use this template to start creating mobile game web apps."
       },
       "Chrome": {
         "platform_": "chromeos",
-        "runtime_": "W3C on Chrome OS",
+         "runtime_": "W3C on Chrome OS",
         "name_": "Chrome",
         "preferences_": {},
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "blank-game-webapp",
         "appID_": "xdk.intel.blank.game.template",
         "appAccess_": [
@@ -195,16 +199,17 @@
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
+        "appAuthor_": "Intel XDK",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "appDescription_": "Use this template to start creating mobile game web apps."
       },
       "Facebook": {
         "platform_": "facebook",
-        "runtime_": "W3C on Facebook",
+         "runtime_": "W3C on Facebook",
         "name_": "Facebook",
         "preferences_": {},
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "blank-game-webapp",
         "appID_": "xdk.intel.blank.game.template",
         "appAccess_": [
@@ -215,6 +220,7 @@
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
+        "appAuthor_": "Intel XDK",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "appDescription_": "Use this template to start creating mobile game web apps."
