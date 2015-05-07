@@ -1,5 +1,7 @@
 {
    "tooltip" : "A Starter project for building Cordova app using Ionic Framework + AngularJS.",
+   "section" : "templates",
+   "group" : "other",
    "visible" : false,
    "appName" : "demo.templateionicangularstarter",
    "keywords" : [
