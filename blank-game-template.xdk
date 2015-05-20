@@ -1,6 +1,6 @@
 {
     "project": {
-        "projectSettingsVersion": 1.3,
+        "projectSettingsVersion": 1.2,
         "creationData": {
             "projectTypeName": "com.intel.xdk.projecttype.webapp",
             "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2015-ww07/template-blank/sample.zip",
