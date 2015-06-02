@@ -1,5 +1,5 @@
 {
-   "tooltip" : "A Starter project for building Cordova app using Ionic Framework + AngularJS.",
+   "tooltip" : "A Starter project for building a mobile app using Ionic Framework + AngularJS.",
    "section" : "templates",
    "group" : "other",
    "visible" : true,
@@ -8,9 +8,9 @@
       "Blank Project",
       "Ionic Framework"
    ],
-   "repoName" : "template-ionic-angular-starter",
+   "repoName" : "template-ionic-angularjs-starter",
    "projectTypeName" : "com.intel.xdk.projecttype.webapp",
-   "description" : "A Starter project for building Cordova app using Ionic Framework + AngularJS.",
+   "description" : "A Starter project for building a mobile app app using Ionic Framework + AngularJS.",
    "articleUrl" : null,
    "highlights" : [
       "Ionic Framework"
