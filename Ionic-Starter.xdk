@@ -23,7 +23,7 @@
                 "runtime_": "W3C on Cordova",
                 "name_": "Android",
                 "preferences_": {
-                    "android-minSdkVersion": 14,
+                    "android-minSdkVersion": "14",
                     "android-targetSdkVersion": "19",
                     "android-installLocation": "auto"
                 },
