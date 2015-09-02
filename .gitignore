@@ -1,5 +1,5 @@
-# ignore "excess" files and directories
-# in essence, ignore everything but *.xdk file and www and docs directories
+# ignore Cordova/PhoneGap CLI directories
+# in essence, everything but *.xdk file and www directory
 /*
 !/www
 !/docs
@@ -9,4 +9,7 @@
 !/intelxdk.config.additions.xml
 !/*.xdk
 !/.gitignore
-!/*.png
+!/.jscodehints
+!/app.json
+!/screenshot.png
+!/icon.png
