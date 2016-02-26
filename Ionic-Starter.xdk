@@ -20,6 +20,46 @@
         "buildConfigurations": {
             "Android": {
                 "platform_": "android",
+                "runtime_": "W3C on Cordova",
+                "name_": "Android",
+                "preferences_": {
+                    "android-minSdkVersion": "14",
+                    "android-targetSdkVersion": "23",
+                    "android-installLocation": "auto"
+                },
+                "isActive_": true,
+                "appName_": "Ionic AngularJS Starter",
+                "appID_": "demo.ionicangularjsstarter",
+                "appAccess_": {
+                    "mode": "whitelist",
+                    "network": [
+                        "*"
+                    ],
+                    "intents": [
+                        "http://*/*",
+                        "https://*/*",
+                        "tel:*",
+                        "sms:*",
+                        "mailto:*",
+                        "geo:*",
+                        "market:*"
+                    ],
+                    "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "iosProvs_": [],
+                "cordovaCLIVersion_": "?",
+                "appVersion_": "0.0.1",
+                "appVersionCode_": "1",
+                "crosswalkVersion_": "?",
+                "appDescription_": "A Starter project for building Cordova app using Ionic Framework + AngularJS.",
+                "appAuthor_": "Intel XDK"
+            },
+            "Android-Crosswalk": {
+                "platform_": "android",
                 "runtime_": "W3C on Crosswalk",
                 "name_": "Android-Crosswalk",
                 "preferences_": {
