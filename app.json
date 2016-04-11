@@ -1,0 +1,22 @@
+{
+   "tooltip" : "A Starter project for building a mobile app using Ionic Framework + AngularJS.",
+   "section" : "templates",
+   "group" : "other",
+   "visible" : true,
+   "appName" : "demo.templateionicangularstarter",
+   "keywords" : [
+      "Blank Project",
+      "Ionic Framework"
+   ],
+   "repoName" : "template-ionic-angularjs-starter",
+   "projectTypeName" : "com.intel.xdk.projecttype.webapp",
+   "description" : "A Starter project for building a mobile app app using Ionic Framework + AngularJS.",
+   "articleUrl" : null,
+   "highlights" : [
+      "Ionic Framework"
+   ],
+   "mobile" : false,
+   "title" : "Ionic Framework Starter",
+   "relName" : "4.0.0",
+   "appPreview" : true
+}

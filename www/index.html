@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="ionicApp">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+  <title>Ionic-AngularJS-Cordova</title>
+
+  <!-- Ionic framework - replace the CDN links with local files and build -->    
+  <link href="lib/ionicframework/ionic.min.css" rel="stylesheet">
+  <script src="lib/ionicframework/ionic.bundle.min.js"></script>
+    
+  <script src="js/app.js"></script>
+    
+  <script src="cordova.js"></script>
+
+  <style>
+      .box {height:300px;padding: 10px}
+  </style>      
+</head>
+
+<body ng-controller="AppCtrl">
+
+    <ion-header-bar class="bar-positive">
+      <h1 class="title">Title</h1>
+    </ion-header-bar>
+    <ion-content padding="true">
+      <p>Hello World</p>
+    </ion-content>
+
+</body>
+</html>
